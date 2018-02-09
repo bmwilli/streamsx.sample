@@ -1,0 +1,14 @@
+namespace streamsx.sample;
+
+public composite SampleComposite {
+  param
+    expression<rstring> $message : "Hello, Sample Composite!!";
+
+  graph
+    () as SampleCompositeMesssage = Custom() {
+      logic
+        onProcess : {
+          println($message);
+        }
+    }
+}
