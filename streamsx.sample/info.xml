@@ -4,6 +4,8 @@
     <name>streamsx.sample</name>
     <description><![CDATA[
 Sample Toolkit Description
+
+This toolkit was created to play with toolkit documentation and github pages
 ]]>
     </description>
     <version>1.0.0.0</version>
